@@ -1,0 +1,301 @@
+/*********************************************************/
+/* MAL Miku Style by b1o2r3i4s5 (2012)                   */
+/* Special Thanks to Kyouhansha, al_exs, and Shishio-kun */
+/*********************************************************/
+
+/****************/
+/* Icon top bar */
+/****************/
+
+@import "https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Y0FsenQ2M21STGs";
+
+/****************/
+/* Font Import */
+/****************/
+
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+
+/*********************/
+/* Anime Cover Image */
+/*********************/
+
+/**https://mal-image.appspot.com/auto/Dethaldox/**/
+@import "https://docs.google.com/uc?export=download&id=0B0jhBteDdCY4anotRnE5NWRYazA";
+/**@import "https://mal-image.appspot.com/auto/?code=.%2F%2A+%5BTITLE%5D+%2A%2F%0A%23more%5BID%5D%7Bbackground-image%3A+url%28%5BURL%5D%29%3B%7D";**/
+
+/*********************/
+/* Fav Covers Image  */
+/*********************/
+
+/* Naruto: Shippuuden */
+#more1735{background-image: url(https://myanimelist.cdn-dena.com/images/anime/13/11194l.jpg);}
+
+/* Perfect Blue */
+#more437{background-image: url(https://myanimelist.cdn-dena.com/images/anime/6/62199l.jpg);}
+
+/* Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (TV) */
+#more35507{background-image: url(https://myanimelist.cdn-dena.com/images/anime/8/85585l.jpg);}
+
+/* Boruto: Naruto Next Generations */
+#more34566{background-image: url(https://myanimelist.cdn-dena.com/images/anime/12/86784.jpg);}
+
+/***************************************/
+/* Background & Universal text Styling */
+/***************************************/
+
+body {
+    background-image: url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4d2ZWRk5QekRacjQ);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right bottom;
+    color: #fff;
+    font-size: 14.20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    /*text-shadow: 2px 2px 6px #aaa;*/
+}
+
+/*************/
+/* List Area */
+/*************/
+
+#list_surround {
+    margin-left:15px;
+    margin-top:-60px;
+    margin-bottom: 100px;
+    width:800px;
+    background: rgba(0, 0, 0, 0.6);
+    
+/* Gradient Borders */
+    border: 20px solid transparent;
+    -moz-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
+    -webkit-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
+    -o-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
+    border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
+	-webkit-background-clip: padding-box !important;
+	background-clip: padding-box !important;
+}
+
+/****************************/
+/* Highlights Rows on Hover */
+/****************************/
+
+table:hover tbody tr .td1, table:hover tbody tr .td2 {
+    background-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4MTRGcDZudzljdW8);
+    background-size:100% 100%;
+}
+
+/* Highlight Image for First Column */
+table:hover tbody tr .td1:first-of-type, table:hover tbody tr .td2:first-of-type
+{background-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4N1pFVXVla3ZWeWs);}
+
+/* Highlight Image for Last Column */
+table:hover tbody tr .td1:last-of-type, table:hover tbody tr .td2:last-of-type
+{background-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4eEIzOHRNRFhIQXM);}
+
+/* Cover Image */
+table:hover+.hide
+{
+    display:block !important;
+    position:fixed;
+    top:160px;
+    left:830px;
+    width:225px;
+    height:350px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 30px solid transparent;
+    -moz-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
+    -webkit-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
+    -o-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
+    border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
+	-webkit-background-clip: padding-box !important;
+	background-clip: padding-box !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Preview text */
+table:hover+.hide:before
+{
+    content:"Preview \a ";
+    white-space: pre;
+    display:block;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 18px;
+    margin-top:-30px;
+}
+
+/*****************/
+/* Table Styling */
+/*****************/
+
+/* Header Styling */
+.header_title
+{
+    font-weight: bold;
+    padding: 3px;
+    text-align:center;
+    font-size: 30px;
+/* Highlight Headers */
+    background-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4LVRyQWlILWJMTDg);
+    background-size:100% 100%;
+	font-family: 'Shadows Into Light Two', cursive;
+	
+}
+
+/* cell Styling */
+.td1, .td2, .table_header {padding: 2px 3px;}
+
+/* Links Styling */
+a {color: #fff; text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+/*************************/
+/* Hides category totals */
+/*************************/
+
+.category_totals {display:none;}
+
+/********************/
+/* Grand Total Area */
+/********************/
+
+#grand_totals
+{
+    padding:3px;
+    margin-bottom:20px;
+    text-align:center;
+    font-size:12px;
+/* Highlight Grand total Header */
+    background-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4LVRyQWlILWJMTDg);
+    background-size:100% 70%;
+    background-position:center top;
+    background-repeat:no-repeat;
+}
+
+/*Grand total Header*/
+#grand_totals:before
+{
+    content:"Grand Totals \a ";
+    white-space: pre;
+    font-weight: bold;
+    padding: 3px;
+    text-align:center;
+    font-size: 18px;
+}
+
+/*#list_surround .status_selected, #list_surround .status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/aJcorG2.jpg);
+background-position:0 100%;
+background-repeat:no-repeat no-repeat;
+border:2px solid white !important;
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+border-top-left-radius:15px;
+border-top-right-radius:0;
+display:block;
+height:90px;
+padding:0;
+position:fixed;
+right:-178px;
+top:103px;
+width:320px;
+}
+#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/iZEh4rE.jpg);
+background-repeat:no-repeat no-repeat;
+border-bottom-right-radius:0;
+border-top-left-radius:0;
+border-top-right-radius:0;
+top:195px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/jOxUzct.jpg);
+top:287px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/nBH6s0X.jpg);
+background-repeat:repeat repeat;
+top:379px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/FjWM8Aw.jpg);
+top:471px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/ddektWX.jpg);
+background-position:0 0;
+background-repeat:no-repeat no-repeat;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+top:563px;
+width:320px;
+}
+.status_not_selected {
+-webkit-transition:all 0.4s ease 0s;
+opacity:0.7;
+right:-178px !important;
+transition:all 0.4s ease 0s;
+}
+.status_not_selected:hover {
+-webkit-transition:all 0.25s ease 0s;
+color:transparent;
+opacity:1;
+right:-20px !important;
+transition:all 0.25s ease 0s;
+}
+.status_selected a, .status_not_selected a, .status_selected:hover a, .status_not_selected:hover a {
+color:transparent;
+display:block;
+height:100px;
+opacity:0;
+width:320px;
+}
+.status_selected {
+display:block;
+}
+.status_selected:hover {
+-webkit-transition:all 0.25s ease-in-out;
+color:transparent;
+opacity:1;
+right:-20px !important;
+transition:all 0.25s ease-in-out;
+}
+.status_selected {
+-webkit-transition:all 0.25s ease-in-out;
+transition:all 0.25s ease-in-out;
+}*/
+
+/******************/
+/* Copyright Info */
+/******************/
+
+#copyright
+{
+    padding:3px;
+    font-size:12px;
+    margin-bottom:5px;
+}
+
+/*****************/
+/* Style Credits */
+/*****************/
+
+#copyright:before
+{
+    content:"CSS Style created by b1o2r3i4s5 \a Special Thanks to Kyouhansha, al_exs, and Shishio-kun \a \a";
+    white-space: pre;
+}
