@@ -1,5 +1,5 @@
 div > table:first-of-type {
-    background: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon1.png?token=GHSAT0AAAAAABSVYSQTJC6HTOFDRNPJT7ZQYR7YBAQ") no-repeat scroll 100% 0 transparent;
+    background: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/menu.png?token=GHSAT0AAAAAABSVYSQTXWFKB7O3G7FWSEYAYR7YAHA") no-repeat scroll 100% 0 transparent;
     display: block;
     height: 32px !important;
     overflow: hidden;
@@ -17,7 +17,7 @@ div > table:first-of-type {
 transition: all 0.4s ease 0s;
 }
 div > table:first-of-type:hover {
-    background: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon1-over.png?token=GHSAT0AAAAAABSVYSQTZ3C2MSVVQCOXD5JUYR7YA4A") no-repeat scroll 100% 0 transparent !important;
+    background: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/menu-over.png?token=GHSAT0AAAAAABSVYSQSMLFJZ7CFVQS436DKYR7YAQA") no-repeat scroll 100% 0 transparent !important;
     height: auto !important;
     width: auto !important;
 }
@@ -180,7 +180,7 @@ transition: all 0.4s ease 0s;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon4.png?token=GHSAT0AAAAAABSVYSQTBLWVGUWJYGI4GN5WYR7X53Q") no-repeat scroll 0 0 transparent !important;
+    background: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon-go.png?token=GHSAT0AAAAAABSVYSQSZVC7ASEJ7XB733JAYR7YAUQ") no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -191,22 +191,22 @@ transition: all 0.4s ease 0s;
     width: 0;
 }
 #mal_cs_listinfo {
-    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon2.png?token=GHSAT0AAAAAABSVYSQSTE3HDCVWICSJSWAIYR7YBNA");
+    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon1.png?token=GHSAT0AAAAAABSVYSQTJC6HTOFDRNPJT7ZQYR7YBAQ");
     right: 172px;
 }
 #mal_cs_listinfo:hover {
-    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon2-over.png?token=GHSAT0AAAAAABSVYSQT7TWHYSGVLZ3TBTE4YR7YBGQ");
+    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon1-over.png?token=GHSAT0AAAAAABSVYSQTZ3C2MSVVQCOXD5JUYR7YA4A");
 }
 #mal_cs_links {
-    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/menu.png?token=GHSAT0AAAAAABSVYSQTXWFKB7O3G7FWSEYAYR7YAHA");
+    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon2.png?token=GHSAT0AAAAAABSVYSQSTE3HDCVWICSJSWAIYR7YBNA");
     right: 138px !important;
     z-index: 9;
 }
 #mal_cs_links:hover {
-    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/menu-over.png?token=GHSAT0AAAAAABSVYSQSMLFJZ7CFVQS436DKYR7YAQA");
+    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon2-over.png?token=GHSAT0AAAAAABSVYSQT7TWHYSGVLZ3TBTE4YR7YBGQ");
 }
 #mal_cs_otherlinks {
-    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon-go.png?token=GHSAT0AAAAAABSVYSQSZVC7ASEJ7XB733JAYR7YAUQ");
+    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon3.png?token=GHSAT0AAAAAABSVYSQTCN5E3NA3DZ47HNOSYR7YBXA");
     right: 104px !important;
     z-index: 8;
 }
@@ -214,7 +214,7 @@ transition: all 0.4s ease 0s;
     background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon3-over.png?token=GHSAT0AAAAAABSVYSQS63VZXA6PVOVLTIRWYR7YBSA");
 }
 #mal_cs_powered {
-    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon3.png?token=GHSAT0AAAAAABSVYSQTCN5E3NA3DZ47HNOSYR7YBXA");
+    background-image: url("https://raw.githubusercontent.com/BrunoxD/MAL-Styles/main/icon4.png?token=GHSAT0AAAAAABSVYSQTBLWVGUWJYGI4GN5WYR7X53Q");
     position: fixed !important;
     right: 70px !important;
     z-index: 7;
