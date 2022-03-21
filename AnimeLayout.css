@@ -7,7 +7,10 @@
 /* Icon top bar */
 /****************/
 
-@import "https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Y0FsenQ2M21STGs";
+
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/more";
+
+@import "https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/IconStyleCSSFixedwithCategoryTrans.css";
 
 /****************/
 /* Font Import */
@@ -19,32 +22,30 @@
 /* Anime Cover Image */
 /*********************/
 
-/**https://mal-image.appspot.com/auto/Dethaldox/**/
-@import "https://docs.google.com/uc?export=download&id=0B0jhBteDdCY4anotRnE5NWRYazA";
-/**@import "https://mal-image.appspot.com/auto/?code=.%2F%2A+%5BTITLE%5D+%2A%2F%0A%23more%5BID%5D%7Bbackground-image%3A+url%28%5BURL%5D%29%3B%7D";**/
+@import "https://mal-image.appspot.com/auto/";
 
 /*********************/
 /* Fav Covers Image  */
 /*********************/
 
 /* Naruto: Shippuuden */
-#more1735{background-image: url(https://myanimelist.cdn-dena.com/images/anime/13/11194l.jpg);}
+#more1735{background-image: url(https://cdn.myanimelist.net/images/anime/13/11194l.jpg);}
 
 /* Perfect Blue */
-#more437{background-image: url(https://myanimelist.cdn-dena.com/images/anime/6/62199l.jpg);}
+#more437{background-image: url(https://cdn.myanimelist.net/images/anime/6/62199l.jpg);}
 
 /* Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (TV) */
-#more35507{background-image: url(https://myanimelist.cdn-dena.com/images/anime/8/85585l.jpg);}
+#more35507{background-image: url(https://cdn.myanimelist.net/images/anime/7/86829l.jpg);}
 
 /* Boruto: Naruto Next Generations */
-#more34566{background-image: url(https://myanimelist.cdn-dena.com/images/anime/12/86784.jpg);}
+#more34566{background-image: url(https://cdn.myanimelist.net/images/anime/12/86784.jpg);}
 
 /***************************************/
 /* Background & Universal text Styling */
 /***************************************/
 
 body {
-    background-image: url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4d2ZWRk5QekRacjQ);
+    background-image: url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/LelouchLamperouge.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,10 +69,10 @@ body {
     
 /* Gradient Borders */
     border: 20px solid transparent;
-    -moz-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
-    -webkit-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
-    -o-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
-    border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
+    -moz-border-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/border.png) 30 30 round;
+    -webkit-border-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/border.png) 30 30 round;
+    -o-border-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/border.png) 30 30 round;
+    border-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/border.png) 30 30 round;
 	-webkit-background-clip: padding-box !important;
 	background-clip: padding-box !important;
 }
@@ -81,17 +82,17 @@ body {
 /****************************/
 
 table:hover tbody tr .td1, table:hover tbody tr .td2 {
-    background-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4MTRGcDZudzljdW8);
+    background-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/hl2.png);
     background-size:100% 100%;
 }
 
 /* Highlight Image for First Column */
 table:hover tbody tr .td1:first-of-type, table:hover tbody tr .td2:first-of-type
-{background-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4N1pFVXVla3ZWeWs);}
+{background-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/hl3.png);}
 
 /* Highlight Image for Last Column */
 table:hover tbody tr .td1:last-of-type, table:hover tbody tr .td2:last-of-type
-{background-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4eEIzOHRNRFhIQXM);}
+{background-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/hl4.png);}
 
 /* Cover Image */
 table:hover+.hide
@@ -104,10 +105,10 @@ table:hover+.hide
     height:350px;
     background-color: rgba(0, 0, 0, 0.6);
     border: 30px solid transparent;
-    -moz-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
-    -webkit-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
-    -o-border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
-    border-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4Q3BiZWI2ZFJuRGM) 30 30 round;
+    -moz-border-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/border.png) 30 30 round;
+    -webkit-border-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/border.png) 30 30 round;
+    -o-border-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/border.png) 30 30 round;
+    border-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/border.png) 30 30 round;
 	-webkit-background-clip: padding-box !important;
 	background-clip: padding-box !important;
     background-repeat: no-repeat;
@@ -138,7 +139,7 @@ table:hover+.hide:before
     text-align:center;
     font-size: 30px;
 /* Highlight Headers */
-    background-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4LVRyQWlILWJMTDg);
+    background-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/hl.png);
     background-size:100% 100%;
 	font-family: 'Shadows Into Light Two', cursive;
 	
@@ -168,7 +169,7 @@ a:hover {text-decoration: underline;}
     text-align:center;
     font-size:12px;
 /* Highlight Grand total Header */
-    background-image:url(https://drive.google.com/uc?export=download&id=0B0jhBteDdCY4LVRyQWlILWJMTDg);
+    background-image:url(https://cdn.jsdelivr.net/gh/BrunoxD/MAL-Styles@main/hl.png);
     background-size:100% 70%;
     background-position:center top;
     background-repeat:no-repeat;
